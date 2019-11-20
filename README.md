@@ -8,14 +8,14 @@ Write a program that writes a series of random numbers to a file. Each random nu
 
 ## Pseudocode
 ### Main logic
-START
-  IMPORT math module
-  OPEN a file called random.txt in append mode
-  INPUT amount of numbers to write to the file
-  FOR each number in amount
-    CALL the random number method to generate an integer between 1 and 500
-    CONVERT the integer to a string
-    WRITE the string to random.txt
-  ENDFOR
-  CLOSE random.txt
-END
+    START
+      IMPORT math module
+      OPEN a file called random.txt in append mode
+      INPUT amount of numbers to write to the file
+      FOR each number in amount
+        CALL the random number method to generate an integer between 1 and 500
+        CONVERT the integer to a string
+        WRITE the string to random.txt
+      ENDFOR
+      CLOSE random.txt
+    END
