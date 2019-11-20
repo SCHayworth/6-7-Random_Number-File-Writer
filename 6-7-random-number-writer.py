@@ -25,7 +25,7 @@ def main():
     # write them to random.txt.
     for number in range(1, number_quantity +1):
         # Generate a random integer from 1-500 and convert it to a string.
-        random_int = string(random.randint(1, 500))
+        random_int = str(random.randint(1, 500))
 
         # Append the random number to the random.txt file.
         file_name.write(random_int)
