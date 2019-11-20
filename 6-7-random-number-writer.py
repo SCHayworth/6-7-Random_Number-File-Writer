@@ -40,7 +40,8 @@ def main():
 
 def count_numbers():
     '''Counts the number of lines in a text file. Use for testing the main()
-    function.'''
+    function.
+    '''
     # Open the random.txt file in read mode.
     test_file = open('random.txt', 'r')
 
